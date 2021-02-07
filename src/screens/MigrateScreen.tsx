@@ -37,7 +37,7 @@ const MigrateScreen = () => {
     return (
         <Screen>
             <Container>
-                <BackgroundImage />
+                {/* <BackgroundImage /> */}
                 <Content>
                     <Title text={t("migrate-liquidity")} />
                     <Text light={true}>{t("migrate-liquidity-desc")}</Text>
@@ -128,7 +128,7 @@ const AmountInfo = ({ state }: { state: MigrateState }) => {
     const disabled = !state.selectedLPToken || isEmptyValue(state.amount);
     return (
         <InfoBox>
-            <Meta label={state.selectedLPToken?.symbol || "SushiSwap LP"} text={state.amount} disabled={disabled} />
+            <Meta label={state.selectedLPToken?.symbol || "MahaSwap LP"} text={state.amount} disabled={disabled} />
             <Controls state={state} />
         </InfoBox>
     );

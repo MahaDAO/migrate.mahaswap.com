@@ -70,11 +70,11 @@ const WebScreens = () => {
                         </Route>
                         {/* <Route path={"/staking/unstake"}>
                             <UnstakeScreen />
-                        </Route> */}
+                        </Route>
                         <Route path={"/staking"}>
                             <StakeScreen />
                         </Route>
-                        {/* <Route path={"/"} exact={true}>
+                         <Route path={"/"} exact={true}>
                             <HomeScreen />
                         </Route> */}
                         <Redirect to={"/migrate"} />

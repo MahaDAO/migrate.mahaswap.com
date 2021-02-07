@@ -24,9 +24,6 @@ const BackgroundImage = ({ style }: { style?: ViewStyle }) => {
                 },
                 style
             ]}>
-            <View style={{ marginTop: -400, marginLeft: -1000, alignSelf: "center" }}>
-                {darkMode ? <SvgBackgroundDark {...props} /> : <SvgBackgroundLight {...props} />}
-            </View>
         </View>
     );
 };
