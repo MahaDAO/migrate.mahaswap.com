@@ -2,8 +2,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "lang": "en",
-  "name": "SushiSwap Lite",
-  "short_name": "SushiSwap Lite",
+  "name": "MahaSwap Migrate",
+  "short_name": "MahaSwap Migrate",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "icons": [
