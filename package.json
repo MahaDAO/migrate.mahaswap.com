@@ -75,7 +75,7 @@
     "tslint-react-hooks": "^2.1.1",
     "typescript": "~3.9.2"
   },
-  "husky": {
+  "husky-dis": {
     "hooks": {
       "pre-commit": "bash ./scripts/pre-commit.sh"
     }

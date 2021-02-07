@@ -44,7 +44,7 @@ const WebHeader: FC<WebHeaderProps> = props => {
                     paddingTop: Spacing.small,
                     paddingHorizontal: Spacing.normal
                 }}>
-                <Title />
+                {/* <Title /> */}
                 {IS_DESKTOP ? <Menu /> : <MenuIcon onExpand={props.onExpandMenu} />}
             </FlexView>
         </View>
@@ -71,13 +71,7 @@ const Menu = () => {
                 height: "100%",
                 alignItems: "center"
             }}>
-            <MenuItem title={t("menu.home")} path={"/"} />
-            <MenuItem title={t("menu.swap")} path={"/swap"} />
-            <MenuItem title={t("menu.liquidity")} path={"/liquidity"} />
-            <MenuItem title={t("menu.migrate")} path={"/migrate"} />
-            <MenuItem title={t("menu.stake")} path={"/staking"} />
-            <MenuItem title={t("menu.farm")} path={"/farming"} />
-            <DarkModeSwitch style={{ marginLeft: Spacing.small }} />
+            {/* <MenuItem title=SushiSwapstyle={{ marginLeft: Spacing.small }} /> */}
             <Status />
         </FlexView>
     );

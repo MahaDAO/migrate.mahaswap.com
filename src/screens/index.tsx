@@ -44,7 +44,7 @@ const WebScreens = () => {
             <View style={{ flex: 1, backgroundColor: background }}>
                 <Suspense fallback={<EmptyScreen />}>
                     <Switch>
-                        <Route path={"/swap/my-orders"}>
+                        {/* <Route path={"/swap/my-orders"}>
                             <MyLimitOrdersScreen />
                         </Route>
                         <Route path={"/swap"}>
@@ -64,20 +64,20 @@ const WebScreens = () => {
                         </Route>
                         <Route path={"/farming"}>
                             <FarmingScreen />
-                        </Route>
+                        </Route> */}
                         <Route path={"/migrate"}>
                             <MigrateScreen />
                         </Route>
-                        <Route path={"/staking/unstake"}>
+                        {/* <Route path={"/staking/unstake"}>
                             <UnstakeScreen />
-                        </Route>
+                        </Route> */}
                         <Route path={"/staking"}>
                             <StakeScreen />
                         </Route>
-                        <Route path={"/"} exact={true}>
+                        {/* <Route path={"/"} exact={true}>
                             <HomeScreen />
-                        </Route>
-                        <Redirect to={"/"} />
+                        </Route> */}
+                        <Redirect to={"/migrate"} />
                     </Switch>
                 </Suspense>
                 <WebHeader onExpandMenu={() => setMenuExpanded(true)} />

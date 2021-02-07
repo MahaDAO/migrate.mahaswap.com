@@ -25,7 +25,7 @@ const WebFooter = ({ simple = false }) => {
     const onPressAlchemy = useLinker(ALCHEMY_URL, "", "_blank");
     return (
         <View style={{ width: "100%", padding: Spacing.normal, alignItems: "center" }}>
-            {!simple && (
+            {/* {!simple && (
                 <>
                     <SocialIcons />
                     <TouchableHighlight onPress={onPressAlchemy}>
@@ -46,7 +46,7 @@ const WebFooter = ({ simple = false }) => {
                 <Flag name={"cn"} locale={"zh"} />
                 <Flag name={"jp"} locale={"jp"} />
                 <Flag name={"kr"} locale={"ko"} />
-            </FlexView>
+            </FlexView> */}
         </View>
     );
 };
