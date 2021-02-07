@@ -5,6 +5,7 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
+    "push": "expo build:web && echo 'migrate.mahaswap.com' > web-build/CNAME && gh-pages --dist web-build",
     "web": "expo start --web",
     "eject": "expo eject",
     "deploy": "bash ./scripts/deploy:web.sh",
